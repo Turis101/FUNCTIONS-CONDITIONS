@@ -191,11 +191,6 @@ if (isEven(num)){
 
 
 
-
-
-
-
-
   int num;
   printf("Enter number\n");
   scanf("%d",&num);
@@ -239,3 +234,5 @@ if (isPositive(num)){printf("Is positive\n");  } else {printf("Is negative\n"); 
     return 0;
 
   }
+
+//I'm namin ghtis wagweez after my homie >Herbert.
