@@ -165,13 +165,13 @@ if (num>0){ return 1;} else { return 0;}
 
 int main()
 {
- CommissiononHammers();
- CommisiiononDrills();
-CommissiononPliers();
-CommissiononChisels();
-CommisiononScrewDrivers();
-CommissiononTapes();
-OtherConstructionMaterials();
+  CommissiononHammers();
+  CommisiiononDrills();
+  CommissiononPliers();
+  CommissiononChisels();
+  CommisiononScrewDrivers();
+  CommissiononTapes();
+  OtherConstructionMaterials();
 
 
 int num;
@@ -185,11 +185,9 @@ if (isEven(num)){
 
   int a;
   int b;
-  printf("Enter the two numbers\n");
-  scanf("%d %d",&a ,&b);
-   printf("Max is %d\n",max(a,b));
-
-
+    printf("Enter the two numbers\n");
+    scanf("%d %d",&a ,&b);
+    printf("Max is %d\n",max(a,b));
 
   int num;
   printf("Enter number\n");
@@ -223,11 +221,6 @@ int num;
 printf("Enter the number\n");
 scanf("%d",&num);
 if (isPositive(num)){printf("Is positive\n");  } else {printf("Is negative\n"); }
-
-
-
-
-
 
 
 
