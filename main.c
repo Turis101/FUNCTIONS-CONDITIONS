@@ -1,8 +1,6 @@
 #include <stdio.h>
 #include <stdlib.h>
 
-
-/*
 void CommissiononHammers (){
 
  double Sales;
@@ -123,7 +121,7 @@ printf("Commission on tapes will be %.2lf\n",commission);
 }
 void OtherConstructionMaterials(){
 printf("No Commission\n");
-}*/
+}
 int isEven (int num){
 
  if (num%2==0){
