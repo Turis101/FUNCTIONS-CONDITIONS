@@ -236,12 +236,11 @@ scanf("%d",&num);
 if (isPositive(num)){printf("Is positive\n");  } else {printf("Is negative\n"); }
 
 
-
-
-
-
-
-
     return 0;
 
   }
+
+
+  //So does this code work?
+
+  //I am absolutely not sure lol
