@@ -12,15 +12,16 @@ void CommissiononHammers (){
 
 if (Sales<100){
         double commission = 0* SP;
-printf("Commission will be %.2lf\n",commission);
+    printf("Commission will be %.2lf\n",commission);
 }else if (Sales>=100 && Sales<250){
  double commission = 0.05* SP;
-printf("Commission will be %.2lf\n",commission);
+    printf("Commission will be %.2lf\n",commission);
 }else {
  double commission = 0.1* SP;
-printf("Commission will be %.2lf\n",commission);
+    printf("Commission will be %.2lf\n",commission);
 }
 }
+
 void CommissiononPliers(){
 int selling_price;
 printf("Enter the selling price \n");
@@ -30,7 +31,7 @@ printf("Enter the quantity\n");
 scanf("%d",&Sales);
 if (Sales<200){
         double commission = 0* selling_price;
-printf("Commission on pliers  will be %.2lf\n",commission);
+        printf("Commission on pliers  will be %.2lf\n",commission);
 }else if (Sales>=200 && Sales<350){
  double commission = 0.25* selling_price;
 printf("Commission on pliers will be %.2lf\n",commission);
